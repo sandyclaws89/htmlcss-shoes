@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+
+
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    font-size: 3rem;
+    position: relative;
+    
+}
+
+.content {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 3rem;
+}
+
+span{
+    text-align: center;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#button1{
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    position: fixed;
+    left: 85%;
+    top:5%;
+    padding: 1rem;
+    color: black;
+ 
+}
+
+#button2{
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    position: fixed;
+    left: 90%;
+    top:5%;
+    padding: 1rem;    
+}
+
+#button3{
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    position: fixed;
+    left: 95%;
+    top:5%;
+    padding: 1rem;    
+}
+
