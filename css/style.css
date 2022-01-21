@@ -84,3 +84,6 @@ span{
     padding: 1rem;    
 }
 
+#button1:hover {
+    box-shadow: 1px 7px rgba(0, 0, 0, .8);
+}
